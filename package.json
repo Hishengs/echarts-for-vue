@@ -1,0 +1,21 @@
+{
+  "name": "vue-for-echarts",
+  "version": "0.0.1",
+  "description": "A ECharts Component of Vue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "echarts",
+    "component",
+    "vue"
+  ],
+  "author": "Hisheng",
+  "license": "MIT",
+  "dependencies": {
+    "echarts": "^4.1.0",
+    "element-resize-detector": "^1.1.15",
+    "vue": "^2.5.16"
+  }
+}

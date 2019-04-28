@@ -3,10 +3,8 @@
 
 ### 安装
 ```js
-npm install -D vue-for-echarts --registry http://10.86.168.3:4873
+npm install -D vue-for-echarts
 ```
-
-> 该库仅发布在内网私有 NPM，内部使用。
 
 ### 使用
 ```html
@@ -74,14 +72,14 @@ autoResize: {
 ```
 
 #### methods
-**render (options)**
+##### render (options)
 
 渲染函数，相当于重新 `setOption`
 
-`options` 可选用于覆盖原有 options 的 echarts 配置项。
+`options` 可选，用于覆盖原有 echarts 的 options 配置项。
+
 
 ### 版本更新
 
-- 0.0.4
-
-  Fix: 修复 `echarts` 实例和 `element-resize-detector` 实例被 Vue 响应式追踪导致的页面性能问题。
+- 0.0.1
+  第一个版本发布
